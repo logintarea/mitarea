@@ -1,0 +1,54 @@
+.contenedor{
+    display: block;
+    grid-template-columns: auto;
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 5px;
+    display: flex;
+    align-items: start;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contenedor div{
+    background: url(fi.jpg);
+    color: rgb(0, 0, 0);
+    padding: 2em;
+    font-size: 30px;
+    line-height: 200%;
+    text-align: center;
+    font-family: fantasy;
+}
+.cont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.cont div{
+    color: rgb(64, 1, 66);
+    text-align: center;
+    font-size: 20px;
+    background: url(to.jpg);
+}
+.conteni{
+    grid-template-columns: auto auto auto;
+    display: grid;
+    align-items: start;
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    padding: 20px;
+}
+.conteni div:hover{
+    border: 7px solid green;
+}
+.contenidoho{
+    background: url(nada.jpg);
+    background-repeat: repeat;
+    text-align: center;
+    padding: 48px 20px 5px 30px;
+}
+.contenidoho div{
+     color: aliceblue;
+     font-size: 23px;
+     font-family: cursive;
+}

@@ -1,0 +1,51 @@
+select{
+    background-color: rgb(218, 183, 252);
+    font-family: cursive;
+    border: 3px groove rgb(0, 61, 0);
+    color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.ote{
+    font-size: 25px;
+    color: rgb(0, 51, 0);
+    font-family: fantasy;
+}
+h2{
+    font-size: 30px;
+    color: rgb(0, 214, 0);
+    text-align: center;
+    font-family: cursive;
+}
+p{
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgb(88, 136, 92);
+}
+h4{
+    text-align: center;
+    color: rgb(143, 123, 255);
+    font-size: 20px;
+    font-family: cursive;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(243, 148, 199);
+    font-family: cursive;
+}
+footer{
+    background: white;
+    color: brown;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: rgb(255, 146, 103);
+}
+
